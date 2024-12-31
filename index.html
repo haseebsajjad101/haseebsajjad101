@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Your Fiverr Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://img.icons8.com/arcade/32/h.png" type="image/x-icon">
+
+  <script src="script.js" defer></script>
+
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts for a sleek look -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="preloader"></div>
+
+  <div class="content">
+    <header>
+      <div class="header-container">
+        <div class="logo">HASEEB SAJJAD</div>
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <button class="header-btn">Get Started</button>
+        </nav>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+
+      <!-- Mobile Navbar -->
+      <div class="navbar-mobile">
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about-sectionc:\Users\NanoDev\Downloads\OIP.jpg c:\Users\NanoDev\Downloads\265_tower.jpg">About</a>
+        <a href="#contact">Contact</a>
+        <button class="header-btn">Get Started</button>
+      </div>
+    </header>
+
+    <script src="script.js"></script>
+
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p class="about-description">
+            I'm <strong>Haseeb</strong>, a skilled <strong>frontend</strong> and <strong>game</strong> <strong>
+              developer</strong> who thrives on crafting beautiful, functional, and innovative digital experiences.
+          </p>
+          <p class="about-mission">
+            From gaming platforms to advanced portfolios, my passion is creating unique, modern, and cutting-edge web
+            solutions that stand out.
+          </p>
+          <div class="action-buttons">
+            <a href="https://www.fiverr.com/haseebsajjad20?source=gig_page&gigs=slug%3Acreate-professional-logo-for-you%2Cpckg_id%3A1&ref=seller_level%3Ana%7Cseller_language%3Aen%2Cur%7Cseller_location%3APK"
+              target="_blank" class="btn primary-btn">Hire Me</a>
+            <a href="https://drive.google.com/file/d/10Sj_Po-XhPm3kmIIFOuq_GlV235gToKw/view?usp=drive_link"
+              target="_blank" class="btn secondary-btn" id="downloadBtn">Download CV</a>
+
+          </div>
+        </div>
+        <div class="about-image-wrapper">
+          <div class="floating-card">
+            <div class="image-overlay">
+              <img src="1.png" alt="Profile" class="profile-img">
+            </div>
+            <div class="card-decoration"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="skills">
+        <div class="container">
+          <h2>My Skills</h2>
+          <div class="skills-container">
+            <div class="skill-card">
+              <h3>HTML</h3>
+              <p>Expert in building structured, accessible web pages.</p>
+              <div class="progress-bar-container">
+                <div class="progress-bar html" style="width: 95%;"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>CSS</h3>
+              <p>Skilled in creating modern, responsive designs.</p>
+              <div class="progress-bar-container">
+                <div class="progress-bar css" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>JavaScript</h3>
+              <p>Experienced in building interactive websites and applications.</p>
+              <div class="progress-bar-container">
+                <div class="progress-bar js" style="width: 85%;"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Wordpress</h3>
+              <p>Proficient in building modern web applications with Wordpress.</p>
+              <div class="progress-bar-container">
+                <div class="progress-bar react" style="width: 80%;"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+  </div>
+  </section>
+
+
+  </main>
+  <section id="projects" class="projects">
+    <h2 class="section-title">My Recent Projects</h2>
+    <div class="projects-wrapper">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="clinic1.jpeg" alt="Project One" />
+        </div>
+        <div class="project-info">
+          <h3>Herbal store</h3>
+          <p>Explore a Herbal store with highly interactive web application built with cutting-edge technology.</p>
+          <a href="https://hamzaclinic.github.io" target="_blank" class="project-btn">Discover</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="OIP.jpg" alt="Project Two" />
+        </div>
+        <div class="project-info">
+          <h3>Project Two</h3>
+          <p>Cool and advance snake game built using HTML, CSS, and JAVASCRIPT.</p>
+          <a href="snake.html" target="_blank" class="project-btn">Discover</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="265_tower.jpg" alt="Project Three" />
+        </div>
+        <div class="project-info">
+          <h3>Project Three</h3>
+          <p>A basic but good tower stacking game built using JAVA and HTMl.</p>
+          <a href="blocks.html" target="_blank" class="project-btn">Discover</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-header">
+        <h2>Contact Me</h2>
+        <p>I’d love to hear from you. Let’s talk!</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Islamabad, Pakistan</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>haseebdigit@gmail.com</p>
+          </div>
+          <div class="info-item">
+            <i class="discord"></i>
+
+          </div>
+        </div>
+        <div class="contact-form">
+          <form onsubmit=" sendEmail(); reset(); return false; ">
+            <div class="input-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+              <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h3>Haseeb Sajjad</h3>
+        <p>© 2025 Haseeb Sajjad. All rights reserved.</p>
+      </div>
+      <div class="footer-center">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="https://discord.gg/GVe9qNCC" class="social-icon"><i class="fab fa-discord"></i></a>
+          <a href="https://github.com/haseebsajjad101" class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/haseeb-sajjad-a4b90833b/" class="social-icon"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/@Jone101-1" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('downloadBtn').addEventListener('click', function () {
+      const link = document.createElement('a');
+      link.href = 'downloads/cv.pdf'; // Path to your CV file
+      link.download = 'CV.pdf'; // The name the file will have when downloaded
+      link.click();
+    });
+  </script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "haseebdigit@gmail.com",
+        Password: "haseeb!@#$%",
+        To: 'haseebdigit@gmail.com',
+        From: document.getElementById(email).value,
+        Subject: "New contact form inquiry",
+        Body: "Name" + document.getElementById("name").value 
+      }).then(
+        message => alert(message)
+      );
+    }
+  </script>
+</body>
+
+</html>
